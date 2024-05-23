@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Tasks 01-03">
-      <change afterPath="$PROJECT_DIR$/Module_1/02_netto-brutto.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_1/04_even.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_1/05_compare_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_1/06_temperature_asking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_1/h_03_divisibility_by_5and11" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_1/h_07_age_from_year.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_1/h_11_three_numbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module_2/01_.py" afterDir="false" />
+    <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Resolve task about divisibility">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_1/00_hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_bmi.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_1/01_bmi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_netto-brutto.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_trapeze_area.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_1/03_trapeze_area.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module_1/h_07_age_from_year.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module_1/h_07_age_from_year.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +23,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Mateusz-11"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3e9f77be-8a9d-46fb-8da6-2e709b082295" />
+        <option name="url" value="https://github.com/Mateusz-11/pystart_code.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,15 +49,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.00_hello.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.00_hello.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Module_1" />
@@ -101,7 +103,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716381343090</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Solutions module 1">
+      <option name="closed" value="true" />
+      <created>1716474013336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716474013336</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Resolve task about divisibility">
+      <option name="closed" value="true" />
+      <created>1716474656484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716474656484</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -119,6 +137,8 @@
     <MESSAGE value="Init files" />
     <MESSAGE value="Init files-new" />
     <MESSAGE value="Tasks 01-03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tasks 01-03" />
+    <MESSAGE value="Solutions module 1" />
+    <MESSAGE value="Resolve task about divisibility" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolve task about divisibility" />
   </component>
 </project>
