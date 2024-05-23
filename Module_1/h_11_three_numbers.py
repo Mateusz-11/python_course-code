@@ -1,6 +1,6 @@
-a = int(input('Number 1: '))
-b = int(input('Number 2: '))
-c = int(input('Number 3: '))
+a = int(input('Number A: '))
+b = int(input('Number B: '))
+c = int(input('Number C: '))
 
 max_value = 0
 min_value = 0
