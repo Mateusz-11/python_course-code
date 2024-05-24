@@ -1,0 +1,11 @@
+numbers = tuple(range(1,101))
+
+print(numbers)
+print('- - - -')
+print(numbers[:10])
+print('- - - -')
+print(numbers[-10:])
+print('- - - -')
+print(numbers[::2])
+print('- - - -')
+print(numbers[::-2])
