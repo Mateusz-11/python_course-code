@@ -1,4 +1,4 @@
-# Create loop which output contains words with the same first and last letter.
+# Create loop which output contains words with the same first and the last letter.
 
 sentence = "Litwo ojczyzno moja Ty jesteś jak zdrowie"
 
