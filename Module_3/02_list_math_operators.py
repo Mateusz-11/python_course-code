@@ -1,7 +1,7 @@
 list_of_numbers = []
 
-for i in range(1, 6):
-    new_number = int(input(f'Write number {i} of 5: '))
+for i in range(5):
+    new_number = int(input(f'Write number {i+1} of 5: '))
     list_of_numbers.append(new_number)
 
 min_value = min(list_of_numbers)
