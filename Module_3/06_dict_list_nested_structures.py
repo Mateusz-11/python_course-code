@@ -20,5 +20,5 @@ for worker in workers:
         programming_stat[programming_language]['quantity'] += 1
         programming_stat[programming_language]['names'].append(worker['name'])
 
-
-print(programming_stat)
+# Print stat - how much popular is specific programming language in team
+print(f'Programming statistics: {programming_stat}')
