@@ -15,3 +15,4 @@ elif direct_translate == 'pl':
     for k, v in eng_pol_dict.items():
         if v == word_to_translate:
             print(k)
+
