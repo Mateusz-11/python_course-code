@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Solution test synchro">
+    <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Solution task - Average temperature of cities in dict with while loop">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,12 +28,12 @@
     &quot;assignee&quot;: &quot;Mateusz-11&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Mateusz-11/python_course-code.git",
-    "accountId": "3e9f77be-8a9d-46fb-8da6-2e709b082295"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Mateusz-11/python_course-code.git&quot;,
+    &quot;accountId&quot;: &quot;3e9f77be-8a9d-46fb-8da6-2e709b082295&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -48,18 +48,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.00_hello.executor": "Run",
-    "Python.h_07_word_jumble.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/studio/Desktop/Projects_Python/2024/pystart_code/Module_3",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.00_hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.h_07_word_jumble.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/studio/Desktop/Projects_Python/2024/pystart_code/Module_3&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Module_3" />
@@ -71,7 +71,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -83,38 +83,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716377499298</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Init files">
-      <option name="closed" value="true" />
-      <created>1716378104925</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716378104925</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Init files-new">
-      <option name="closed" value="true" />
-      <created>1716379065844</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1716379065844</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Tasks 01-03">
-      <option name="closed" value="true" />
-      <created>1716381343090</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1716381343090</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Solutions module 1">
-      <option name="closed" value="true" />
-      <created>1716474013336</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1716474013336</updated>
     </task>
     <task id="LOCAL-00005" summary="Resolve task about divisibility">
       <option name="closed" value="true" />
@@ -468,7 +436,47 @@
       <option name="project" value="LOCAL" />
       <updated>1717860889735</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Solution task - math operations with match case">
+      <option name="closed" value="true" />
+      <created>1717964251090</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1717964251090</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Solution task - convert unitis with match case">
+      <option name="closed" value="true" />
+      <created>1718048682195</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1718048682196</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Solution task - simple password verification with while loop">
+      <option name="closed" value="true" />
+      <created>1718135184421</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1718135184421</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Solution task - cashmachine with while loop">
+      <option name="closed" value="true" />
+      <created>1718212296615</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1718212296615</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Solution task - Average temperature of cities in dict with while loop">
+      <option name="closed" value="true" />
+      <created>1718477662734</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1718477662735</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -484,11 +492,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Resolve task string with for loop" />
-    <MESSAGE value="Resolve task string with for loop - second" />
-    <MESSAGE value="Resolve simple project to calculate litres paint and base to painting walls" />
-    <MESSAGE value="Resolve simple add Try Except block" />
-    <MESSAGE value="Init Modul 3" />
     <MESSAGE value="Resolve 1 task of lists" />
     <MESSAGE value="Resolve 2 task of lists - math operators" />
     <MESSAGE value="Resolve 2&amp;3 tasks of list - math operators" />
@@ -509,6 +512,11 @@
     <MESSAGE value="Init 4 Module" />
     <MESSAGE value="Solution task 1 from Modul 4 - Match case" />
     <MESSAGE value="Solution test synchro" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution test synchro" />
+    <MESSAGE value="Solution task - math operations with match case" />
+    <MESSAGE value="Solution task - convert unitis with match case" />
+    <MESSAGE value="Solution task - simple password verification with while loop" />
+    <MESSAGE value="Solution task - cashmachine with while loop" />
+    <MESSAGE value="Solution task - Average temperature of cities in dict with while loop" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution task - Average temperature of cities in dict with while loop" />
   </component>
 </project>
