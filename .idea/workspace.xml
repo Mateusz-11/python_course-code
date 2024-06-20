@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Solution task - Average temperature of cities in dict with while loop">
+    <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Solution task - Try">
+      <change afterPath="$PROJECT_DIR$/Module_4/h_07_odds_even_lists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pystart_code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pystart_code.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -57,7 +61,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/studio/Desktop/Projects_Python/2024/pystart_code/Module_3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -83,14 +87,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716377499298</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Resolve task about divisibility">
-      <option name="closed" value="true" />
-      <created>1716474656484</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1716474656484</updated>
     </task>
     <task id="LOCAL-00006" summary="Resolve task about age of person and leap year">
       <option name="closed" value="true" />
@@ -476,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718477662735</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Solution task - Try">
+      <option name="closed" value="true" />
+      <created>1718817191745</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1718817191746</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -492,7 +496,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Resolve 1 task of lists" />
     <MESSAGE value="Resolve 2 task of lists - math operators" />
     <MESSAGE value="Resolve 2&amp;3 tasks of list - math operators" />
     <MESSAGE value="Resolve 1 tasks of dict - simples operations" />
@@ -517,6 +520,7 @@
     <MESSAGE value="Solution task - simple password verification with while loop" />
     <MESSAGE value="Solution task - cashmachine with while loop" />
     <MESSAGE value="Solution task - Average temperature of cities in dict with while loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution task - Average temperature of cities in dict with while loop" />
+    <MESSAGE value="Solution task - Try" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution task - Try" />
   </component>
 </project>
