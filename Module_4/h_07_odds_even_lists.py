@@ -12,10 +12,10 @@ while True:
     else:
         odds.append(number)
 
-print('- - - ' * 7)
+print('- - - ' * 5)
 print(f'Odds numbers: {odds}')
 print(f'Numbers of odds numbers: {len(odds)}')
-print('- - - ' * 7)
-print('- - - ' * 7)
+print('- - - ' * 5)
+print('- - - ' * 5)
 print(f'Evens numbers: {even}')
 print(f'Numbers of evens numbers: {len(even)}')
