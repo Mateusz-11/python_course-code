@@ -15,7 +15,7 @@ while True:
 print('- - - ' * 5)
 print(f'Odds numbers: {odds}')
 print(f'Numbers of odds numbers: {len(odds)}')
-print('- - - ' * 6)
+print('- - - ' * 5)
 print('- - - ' * 6)
 print(f'Evens numbers: {even}')
 print(f'Numbers of evens numbers: {len(even)}')
