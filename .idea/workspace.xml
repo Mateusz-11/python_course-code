@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6e915f6-cf11-4329-83f9-5d04e389cb28" name="Changes" comment="Solution task - Try">
-      <change afterPath="$PROJECT_DIR$/Module_4/h_08_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_5/01_word_counter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_5/02_get_vowels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_5/03_prime_number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_5/h_01_pl.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
