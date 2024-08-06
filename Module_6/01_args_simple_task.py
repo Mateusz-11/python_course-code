@@ -1,8 +1,8 @@
-def simple_sum(limit, *args):
+def simple_sum(limit: int = 0, *args) -> int:
     total = 0
-    for _ in args:
-        if _ > limit:
-            total += _
+    for arg in args:
+        if arg > limit:
+            total += arg
 
     return total
 
