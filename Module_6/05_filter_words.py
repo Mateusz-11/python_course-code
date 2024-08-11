@@ -1,9 +1,13 @@
-def filater_words(text: str) -> set:
-    pass
+def filter_words(text: str) -> set:
+    result = set()
+    for word in text.split(' '):
+        if word[0].lower() not in 'aeiouyąę' and word[-1].lower() in 'aeiouyąę':
+            result.add(word)
 
+    return result
 
 def test_filter_words():
-    assert filater_words("Ala ma kota") == {'ma', 'kota'}
-    assert filater_words("Ala MA KOTA") == {'MA', 'KOTA'}
-    assert filater_words("Ala Ma kotA") == {'Ma', 'kotA'}
-    assert filater_words("tygrys") == set()
+    assert filter_words("Ala ma kota") == {'ma', 'kota'}
+    assert filter_words("Ala MA KOTA") == {'MA', 'KOTA'}
+    assert filter_words("Ala Ma kotA") == {'Ma', 'kotA'}
+    assert filter_words("tygrys") == set()
