@@ -28,5 +28,5 @@ if __name__ == '__main__':
     bmi = calculate_bmi(weight, height)
     bmi_text = bmi_to_text(bmi)
 
-    # print(bmi)
-    # print(bmi_text)
+    print(bmi)
+    print(bmi_text)
