@@ -3,12 +3,13 @@ from tkinter import messagebox
 from random import randint
 
 def on_submit():
-    global previous_difference
+    global previous_difference, steps
+    steps += 1
     value = int(field.get())
     difference = abs(target - value)
 
     if difference == 0:
-        messagebox.showinfo('Condition', "Congratulation!")
+        messagebox.showinfo('Condition', f"Congratulation! You guessed in {steps} steps.")
     elif previous_difference is None or difference < previous_difference:
         messagebox.showinfo('Condition', "Getting warmer")
     else:
@@ -16,6 +17,7 @@ def on_submit():
 
     previous_difference = difference
 
+steps = 0
 previous_difference = None
 target = randint(1,100)
 
