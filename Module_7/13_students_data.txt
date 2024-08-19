@@ -4,5 +4,5 @@ Milan;Wróblewski;3
 Joanna;Kowalska;4
 Leonardo;Jankowski;5
 Izabela;Kozłowska;5
-DominikalCzerwińska;2
+Dominika;Czerwińska;2
 Marek;Gajewski;2
