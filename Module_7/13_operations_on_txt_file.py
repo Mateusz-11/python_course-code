@@ -3,7 +3,7 @@ passed = []
 with open('13_students_data.txt', encoding='utf8') as file:
     for line in file:
         first_name, last_name, note = line.strip().split(';')
-        if note == '2':
+        if note == '3':
             passed.append({'first_name': first_name, 'last_name': last_name, 'note': note})
 
 with open('13_output.txt', encoding='utf8', mode='w') as file:
