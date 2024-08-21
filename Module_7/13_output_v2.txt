@@ -1,2 +1,3 @@
-Judyta;Dąbrowska,3
-Milan;Wróblewski,3
+Ignacy;Włodarczyk,2
+Dominika;Czerwińska,2
+Marek;Gajewski,2
