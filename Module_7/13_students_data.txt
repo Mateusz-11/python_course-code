@@ -6,3 +6,4 @@ Leonardo;Jankowski;5
 Izabela;Kozłowska;5
 Dominika;Czerwińska;2
 Marek;Gajewski;2
+Piotr;Nowak;5
