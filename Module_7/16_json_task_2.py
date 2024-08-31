@@ -1,11 +1,11 @@
 from json import load, dump
 
-operation = input('What you want to do? [a] Add expense [s] Show all: ')
+choice = input('What you want to do? [a] Add expense [s] Show all: ')
 
 with open("16_expenses.json") as file:
     expenses = load(file)
 
-if operation == "a":
+if choice == "a":
     new_category = input("What is the expense for? ")
     new_amount = input("How much was spent? ")
 
@@ -16,7 +16,7 @@ if operation == "a":
         })
         dump(expenses, file)
 
-elif operation == "s":
+elif choice == "s":
     print("All expenses:")
     for expense in expenses:
         print("Category: ", expense.get('category'))
