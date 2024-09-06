@@ -8,7 +8,7 @@ with open('operacje.csv', encoding='utf8', newline='') as file:
     columns = ['data', 'rodzaj operacji', 'opis operacji', 'kwota operacji']
     reader = csv.DictReader(file)
     for row in reader:
-        operation_date = datetime.strptime(row['data']. '%Y-%m-%d')
+        operation_date = datetime.strptime(row['data'], '%Y-%m-%d')
         statistics[operation_date.strftime('%B')] = {
             'total': 0,
             'income_quantity': 0,
@@ -30,7 +30,7 @@ totals = []
 numbers_of_operations = []
 for month, data in statistics.items():
     totals.append(data['total'])
-    numbers_of_operations.append(data['income_quantity'] + data[])
+    numbers_of_operations.append(data['income_quantity'] + data['total'])
 
 ax.bar(months, totals)
 plt.show()
