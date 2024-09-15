@@ -22,11 +22,11 @@ with sqlite3.connect('books.db') as connection:
     for book in cursor.execute('SELECT book_id, title, author FROM  books'):
         print(book)
 
-    # title = input('Podaj tytuł: ')
-    # author = input('Podaj imię i nazwisko autora: ')
+    title = input('Podaj tytuł: ')
+    author = input('Podaj imię i nazwisko autora: ')
 
-    # cursor.execute(
-    #     'INSERT INTO books(title, author) VALUES(?, ?)',
-    # (title, author)
-    # )
+    cursor.execute(
+        'INSERT INTO books(title, author) VALUES(?, ?)',
+    (title, author)
+    )
     connection.commit()
