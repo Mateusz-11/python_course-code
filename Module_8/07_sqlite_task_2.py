@@ -23,21 +23,29 @@ if len(argv) == 2 and argv[1] == 'setup':
 def adding_task():
     with sqlite3.connect('07_todo_list.db') as connection:
         cursor = connection.cursor()
-        for task in cursor.execute('SELECT todo_id, title, is_done FROM todos'):
+        for task in cursor.execute('SELECT * FROM todos WHERE is_done=0'):
             print(task)
 
         title = input('Co masz do zrobienia? ')
 
         cursor.execute(
-            'INSERT INTO todos(title, is_done) VALUES(?, ?)',
-            (title, 0)
-
-        )
+            'INSERT INTO todos(title) VALUES (?)', (title,))
         connection.commit()
 
+def change_status():
+    with sqlite3.connect('07_todo_list.db') as connection:
+        cursor = connection.cursor()
+        for task in cursor.execute('SELECT * FROM todos WHERE is_done=0'):
+            print(task)
+
+        id_task = int(input('Napisz ID zadania, które zrobiłeś: '))
+        cursor.execute(
+            'UPDATE todos SET is_done=1 WHERE todo_id=?', (id_task,)
+        )
 i = 1
 while i == 1:
-    print("Co chcesz teraz zrobić? \n "
+    print("- - - - - - - - - - - - - - \n "
+          "Co chcesz teraz zrobić? \n "
           "0 - Dodaj nowe zadanie \n "
           "1 - Ustaw zadanie jako zrealizowane \n "
           "2 - Zamknij program\n ")
@@ -46,6 +54,9 @@ while i == 1:
         case 0:
             adding_task()
         case 1:
-            continue
+            change_status()
         case 2:
+            break
+        case _:
+            print('Nieprawidłowy wybór')
             break
