@@ -1,4 +1,3 @@
-from http.cookiejar import request_port
 from random import choice
 
 
