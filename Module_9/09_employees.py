@@ -39,3 +39,4 @@ def test_manager():
     manager.add_bonus(500)
 
     assert manager.get_salary() == 40 * 100 * 2 + 500
+
